@@ -5,7 +5,7 @@ session_start();
 //database credentials
 define('DBHOST','localhost');
 define('DBUSER','arvostelu');
-define('DBPASS','eyD5pDqcJ3CEd');
+define('DBPASS','1234567899');
 define('DBNAME','arvostelu');
 
 $db = new PDO("mysql:host=".DBHOST.";port=8889;dbname=".DBNAME, DBUSER, DBPASS);
